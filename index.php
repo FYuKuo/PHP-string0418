@@ -18,3 +18,17 @@ echo "子字串使用sub ==> " . $sub;
 
 
 ?>
+
+<h2>trim 去頭尾空白</h2>
+<h4>字串=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+
+<?php
+$str="        空白         ";
+echo $str;
+echo "<br>";
+$trim=trim($str);
+echo $trim;
+
+
+
+?>
