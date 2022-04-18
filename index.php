@@ -8,3 +8,13 @@
 </ul>
 
 <h4>字串 - 今天是星期一,是個blue monday</h4>
+
+<?php
+$str="今天是星期一,是個blue monday";
+
+$sub=mb_substr($str,3,3);
+
+echo "子字串使用sub ==> " . $sub;
+
+
+?>
